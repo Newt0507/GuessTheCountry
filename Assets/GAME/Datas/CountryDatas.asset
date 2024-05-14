@@ -1,0 +1,416 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d488b28fcc40f2843978f6bc5f3e5e61, type: 3}
+  m_Name: CountryDatas
+  m_EditorClassIdentifier: 
+  flagDatas: {fileID: 11400000, guid: f000949e3d8369042acd1a606498b392, type: 2}
+  maps:
+  - name: United States
+    position: {x: -3.917, y: 0.504}
+    flagIndex: 0
+    options: 000000000100000022000000
+  - name: United Kingdom
+    position: {x: -0.432, y: 0.535}
+    flagIndex: 1
+    options: 1c0000000100000003000000
+  - name: Russia
+    position: {x: 2.864, y: 1.466}
+    flagIndex: 2
+    options: 020000000800000009000000
+  - name: Australia
+    position: {x: 3.732, y: -2.352}
+    flagIndex: 3
+    options: 030000005d0000001c00000022000000
+  - name: Germany
+    position: {x: -0.02, y: 0.366}
+    flagIndex: 4
+    options: 0700000010000000040000001b000000
+  - name: Canada
+    position: {x: -3.289, y: 1.685}
+    flagIndex: 5
+    options: 0500000018000000210000002f000000
+  - name: China
+    position: {x: 2.835, y: -0.205}
+    flagIndex: 6
+    options: 0c000000060000000e00000036000000
+  - name: Italy
+    position: {x: 0.047, y: -0.038}
+    flagIndex: 7
+    options: 0a00000007000000180000001b000000
+  - name: Netherlands
+    position: {x: -0.1767, y: 0.4111}
+    flagIndex: 8
+    options: 090000002c0000003400000008000000
+  - name: France
+    position: {x: -0.2889, y: 0.1681}
+    flagIndex: 9
+    options: 020000000b000000090000002d000000
+  - name: Spain
+    position: {x: -0.4241, y: -0.1269}
+    flagIndex: 10
+    options: 1a0000000a0000002000000040000000
+  - name: Switzerland
+    position: {x: -0.0908, y: 0.1605}
+    flagIndex: 11
+    options: 100000000b0000001100000017000000
+  - name: Japan
+    position: {x: 3.965, y: 0.029}
+    flagIndex: 12
+    options: 0e000000410000000c0000004a000000
+  - name: Sweden
+    position: {x: 0.196, y: 1.041}
+    flagIndex: 13
+    options: 0d00000015000000160000002f000000
+  - name: South Korea
+    position: {x: 3.5594, y: -0.2661}
+    flagIndex: 14
+    options: 060000000e000000190000004a000000
+  - name: Brazil
+    position: {x: -1.992, y: -1.928}
+    flagIndex: 15
+    options: 260000000f0000002700000043000000
+  - name: Belgium
+    position: {x: -0.2, y: 0.33}
+    flagIndex: 16
+    options: 040000002c0000001000000034000000
+  - name: Denmark
+    position: {x: -0.0196, y: 0.6207}
+    flagIndex: 17
+    options: 0d00000016000000110000002f000000
+  - name: India
+    position: {x: 2.183, y: -0.723}
+    flagIndex: 18
+    options: 25000000120000004100000042000000
+  - name: Singapore
+    position: {x: 2.8342, y: -1.4143}
+    flagIndex: 19
+    options: 22000000130000002300000033000000
+  - name: Israel
+    position: {x: 0.724, y: -0.4566}
+    flagIndex: 20
+    options: 1a0000001f0000002800000014000000
+  - name: Finland
+    position: {x: 0.455, y: 1.206}
+    flagIndex: 21
+    options: 0d000000110000001500000016000000
+  - name: Norway
+    position: {x: 0.214, y: 1.811}
+    flagIndex: 22
+    options: 11000000160000002f0000003e000000
+  - name: Austria
+    position: {x: 0.0652, y: 0.2059}
+    flagIndex: 23
+    options: 29000000170000003400000043000000
+  - name: Greece
+    position: {x: 0.363, y: -0.1572}
+    flagIndex: 24
+    options: 3900000018000000490000006a000000
+  - name: Taiwan
+    position: {x: 3.3553, y: -0.717}
+    flagIndex: 25
+    options: 22000000190000003600000045000000
+  - name: Iran
+    position: {x: 1.302, y: -0.403}
+    flagIndex: 26
+    options: 1f0000002b0000003f0000001a000000
+  - name: Ireland
+    position: {x: -0.5872, y: 0.4731}
+    flagIndex: 27
+    options: 07000000080000001b00000009000000
+  - name: New Zealand
+    position: {x: 4.9271, y: -2.8268}
+    flagIndex: 28
+    options: 010000001c000000030000007b000000
+  - name: South Africa
+    position: {x: 0.414, y: -2.37}
+    flagIndex: 29
+    options: 710000007e0000001d00000092000000
+  - name: Turkey
+    position: {x: 0.7419, y: -0.1631}
+    flagIndex: 30
+    options: 2500000035000000390000001e000000
+  - name: Saudi Arabia
+    position: {x: 1.04, y: -0.6898}
+    flagIndex: 31
+    options: 2b000000380000001f00000042000000
+  - name: Portugal
+    position: {x: -0.5785, y: -0.1397}
+    flagIndex: 32
+    options: 0a000000490000002000000051000000
+  - name: Mexico
+    position: {x: -3.443, y: -0.702}
+    flagIndex: 33
+    options: 21000000000000000500000057000000
+  - name: Malaysia
+    position: {x: 3.003, y: -1.3343}
+    flagIndex: 34
+    options: 1300000033000000220000004d000000
+  - name: Poland
+    position: {x: 0.2436, y: 0.4053}
+    flagIndex: 35
+    options: 1700000023000000330000003b000000
+  - name: Hungary
+    position: {x: 0.252, y: 0.1764}
+    flagIndex: 36
+    options: 24000000310000003900000047000000
+  - name: Pakistan
+    position: {x: 1.7437, y: -0.4788}
+    flagIndex: 37
+    options: 1e0000003f0000005400000025000000
+  - name: Argentina
+    position: {x: -2.277, y: -2.816}
+    flagIndex: 38
+    options: 0f000000260000002700000049000000
+  - name: Chile
+    position: {x: -2.505, y: -2.749}
+    flagIndex: 39
+    options: 27000000430000004f00000078000000
+  - name: Egypt
+    position: {x: 0.5957, y: -0.6014}
+    flagIndex: 40
+    options: 38000000650000002800000072000000
+  - name: Czech Republic
+    position: {x: 0.1301, y: 0.2967}
+    flagIndex: 41
+    options: 290000002d0000003700000045000000
+  - name: Thailand
+    position: {x: 2.7556, y: -1.0512}
+    flagIndex: 42
+    options: 6200000068000000800000002a000000
+  - name: U. A. E
+    position: {x: 1.309, y: -0.7008}
+    flagIndex: 43
+    options: 380000002b000000420000004c000000
+  - name: Romania
+    position: {x: 0.4264, y: 0.1224}
+    flagIndex: 44
+    options: 300000004f0000002c00000055000000
+  - name: Slovenia
+    position: {x: 0.1162, y: 0.1332}
+    flagIndex: 45
+    options: 31000000370000002d00000048000000
+  - name: Estonia
+    position: {x: 0.451, y: 0.7533}
+    flagIndex: 46
+    options: 230000008b0000002e00000090000000
+  - name: Iceland
+    position: {x: -0.9172, y: 1.1705}
+    flagIndex: 47
+    options: 110000002f0000001500000016000000
+  - name: Colombia
+    position: {x: -2.5697, y: -1.3372}
+    flagIndex: 48
+    options: 300000002c0000004f00000050000000
+  - name: Croatia
+    position: {x: 0.1583, y: 0.076}
+    flagIndex: 49
+    options: 2d000000370000003100000055000000
+  - name: Cyprus
+    position: {x: 0.6825, y: -0.3119}
+    flagIndex: 50
+    options: 28000000320000003500000058000000
+  - name: Indonesia
+    position: {x: 3.262, y: -1.531}
+    flagIndex: 51
+    options: 13000000330000002300000043000000
+  - name: Luxembourg
+    position: {x: -0.155, y: 0.2965}
+    flagIndex: 52
+    options: 08000000340000000900000057000000
+  - name: Lebanon
+    position: {x: 0.756, y: -0.3551}
+    flagIndex: 53
+    options: 3f000000420000003500000044000000
+  - name: Vietnam
+    position: {x: 2.885, y: -0.9541}
+    flagIndex: 54
+    options: 06000000360000004000000073000000
+  - name: Slovakia
+    position: {x: 0.26, y: 0.246}
+    flagIndex: 55
+    options: 29000000370000002d00000031000000
+  - name: Jordan
+    position: {x: 0.7878, y: -0.453}
+    flagIndex: 56
+    options: 280000003f000000380000004c000000
+  - name: Bulgaria
+    position: {x: 0.4361, y: -0.0123}
+    flagIndex: 57
+    options: 3900000024000000420000006a000000
+  - name: Nigeria
+    position: {x: -0.0789, y: -1.1793}
+    flagIndex: 58
+    options: 430000003a0000006100000077000000
+  - name: Ukraine
+    position: {x: 0.6107, y: 0.2593}
+    flagIndex: 59
+    options: 230000003b0000002d00000037000000
+  - name: Kenya
+    position: {x: 0.813, y: -1.4531}
+    flagIndex: 60
+    options: 6300000070000000740000003c000000
+  - name: Sri Lanka
+    position: {x: 2.129, y: -1.22}
+    flagIndex: 61
+    options: 12000000410000003d00000056000000
+  - name: Georgia
+    position: {x: 0.9829, y: -0.0315}
+    flagIndex: 62
+    options: 3e00000058000000640000008d000000
+  - name: Iraq
+    position: {x: 0.99, y: -0.377}
+    flagIndex: 63
+    options: 380000003f0000004200000044000000
+  - name: Morocco
+    position: {x: -0.5434, y: -0.4318}
+    flagIndex: 64
+    options: 400000004b0000005f00000097000000
+  - name: Bangladesh
+    position: {x: 2.4146, y: -0.6979}
+    flagIndex: 65
+    options: 0c0000000f0000004100000080000000
+  - name: Oman
+    position: {x: 1.3654, y: -0.8119}
+    flagIndex: 66
+    options: 3f00000042000000440000004c000000
+  - name: Peru
+    position: {x: -2.624, y: -1.747}
+    flagIndex: 67
+    options: 0f00000017000000430000004f000000
+  - name: Kuwait
+    position: {x: 1.11, y: -0.5225}
+    flagIndex: 68
+    options: 440000001a0000002b00000038000000
+  - name: Philippines
+    position: {x: 3.3752, y: -1.0789}
+    flagIndex: 69
+    options: 2200000029000000450000002a000000
+  - name: Kazakhstan
+    position: {x: 1.697, y: 0.248}
+    flagIndex: 70
+    options: 46000000530000006d00000079000000
+  - name: Belarus
+    position: {x: 0.5157, y: 0.4971}
+    flagIndex: 71
+    options: 5500000064000000470000008b000000
+  - name: Serbia
+    position: {x: 0.3011, y: 0.044}
+    flagIndex: 72
+    options: 2d000000480000003100000037000000
+  - name: Uruguay
+    position: {x: -2.0405, y: -2.5074}
+    flagIndex: 73
+    options: 1800000049000000220000005d000000
+  - name: North Korea
+    position: {x: 3.5476, y: -0.1082}
+    flagIndex: 74
+    options: 4a0000000e000000190000004e000000
+  - name: Algeria
+    position: {x: -0.2905, y: -0.5506}
+    flagIndex: 75
+    options: 25000000510000004b00000060000000
+  - name: Yemen
+    position: {x: 1.122816, y: -0.9661483}
+    flagIndex: 76
+    options: 4c000000280000002b0000003f000000
+  - name: Brunei
+    position: {x: 3.1786, y: -1.3009}
+    flagIndex: 77
+    options: 1300000045000000680000004d000000
+  - name: Costa Rica
+    position: {x: -2.9097, y: -1.1583}
+    flagIndex: 78
+    options: 610000004e0000006e0000007f000000
+  - name: Ecuador
+    position: {x: -2.7209, y: -1.506}
+    flagIndex: 79
+    options: 2c00000050000000550000004f000000
+  - name: Venezuela
+    position: {x: -2.3696, y: -1.2664}
+    flagIndex: 80
+    options: 50000000300000004f00000064000000
+  - name: Tunisia
+    position: {x: -0.0465, y: -0.3578}
+    flagIndex: 81
+    options: 25000000510000004b00000072000000
+  - name: Uganda
+    position: {x: 0.6485, y: -1.4151}
+    flagIndex: 82
+    options: 740000007c0000005200000082000000
+  - name: Uzbekistan
+    position: {x: 1.6221, y: -0.0627}
+    flagIndex: 83
+    options: 25000000540000005b00000053000000
+  - name: Tajikistan
+    position: {x: 1.8344, y: -0.1655}
+    flagIndex: 84
+    options: 1a0000006d000000540000009c000000
+  - name: Moldova
+    position: {x: 0.5254, y: 0.1757}
+    flagIndex: 85
+    options: 550000001a0000006d0000009c000000
+  - name: North Macedonia
+    position: {x: 0.3210076, y: -0.06208993}
+    flagIndex: 86
+    options: 560000005b0000007a0000008f000000
+  - name: Greenland
+    position: {x: -1.636, y: 2.207}
+    flagIndex: 87
+    options: 13000000230000003300000057000000
+  - name: Syria
+    position: {x: 0.8555756, y: -0.3169143}
+    flagIndex: 88
+    options: 280000002b0000005800000044000000
+  - name: Cuba
+    position: {x: -2.7144, y: -0.8139}
+    flagIndex: 89
+    options: 59000000450000004e00000096000000
+  - name: Senegal
+    position: {x: -0.7794834, y: -1.00589}
+    flagIndex: 90
+    options: 5f0000005a0000006900000099000000
+  - name: Afghanistan
+    position: {x: 1.729, y: -0.353}
+    flagIndex: 91
+    options: 6d0000008d0000005b0000009c000000
+  - name: Paraguay
+    position: {x: -2.1223, y: -2.1961}
+    flagIndex: 92
+    options: 5c000000080000004900000078000000
+  - name: Liberia
+    position: {x: -0.6309348, y: -1.264436}
+    flagIndex: 93
+    options: 6f000000840000005d00000093000000
+  - name: Mozambique
+    position: {x: 0.744, y: -2.046}
+    flagIndex: 94
+    options: 660000005e000000670000006b000000
+  - name: Mali
+    position: {x: -0.463, y: -0.9058}
+    flagIndex: 95
+    options: 60000000840000005f00000099000000
+  - name: Cameroon
+    position: {x: 0.037, y: -1.2279}
+    flagIndex: 96
+    options: 6a000000750000006000000094000000
+  - name: El Salvador
+    position: {x: -3.056854, y: -1.034378}
+    flagIndex: 97
+    options: 6e000000610000007500000094000000
+  - name: Myanmar
+    position: {x: 2.601687, y: -0.8365832}
+    flagIndex: 98
+    options: 36000000680000008000000062000000
+  - name: Congo
+    position: {x: 0.1124107, y: -1.479615}
+    flagIndex: 99
+    options: 70000000630000008100000088000000
